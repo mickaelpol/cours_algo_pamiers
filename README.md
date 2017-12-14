@@ -22,11 +22,14 @@
 
 # Exercice algorithmique
 
-## Exercice 1 : Trie à bulle 
+## Exercice 1 : Tri à bulle   
+## Exercice 1 bis : Tri par insertion   
 
-## Exercice 2 :
+## Exercice 2 : Recherche dichotomique  
 
-## Exercice 3 :
+## Exercice 3 : Introduction à la recursivité  
+**Calcul de la somme des X premiers entier**  
+**Suite de fibonacci**
 
 
 
