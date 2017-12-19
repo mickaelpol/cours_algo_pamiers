@@ -1,4 +1,4 @@
-# Pour ceux qui veulent travailler sous nodejs
+# Pour ceux qui veulent travailler sous nodejs  
 
 
 [Installation nodejs](https://doc.ubuntu-fr.org/nodejs)
@@ -14,15 +14,15 @@
 
 1-  Cloner le repo github sur votre espace de travail  
 2-  Ouvrir le dossier cloner dans votre éditeur de texte  
-3-  rendez vous sur votre app.js
+3-  rendez vous sur votre app.js  
 
---------------------
+--------------------  
 
 # Présentation de l'algorithmie  
 
     Définition d'un algorithme  
 
-# Exercice algorithmique
+# Exercice algorithmique  
 
 ## Live programming : Tri à bulle   
 
@@ -43,15 +43,17 @@
 
     --------------------------------------------------------  
 
-    La recherche dichotomique, ou recherche par dichotomie1 (en anglais : binary search), est un algorithme de recherche pour trouver la position d'un élément dans un tableau trié. Le principe est le suivant : comparer l'élément avec la valeur de la case au milieu du tableau ; si les valeurs sont égales, la tâche est accomplie, sinon on recommence dans la moitié du tableau pertinente.  
+    La recherche dichotomique, ou recherche par dichotomie1 (en anglais : binary search), est un algorithme de recherche pour trouver la position d'un élément  
+    dans un tableau trié. Le principe est le suivant : comparer l'élément avec la valeur de la case au milieu du tableau ; si les valeurs sont égales,  
+    la tâche est accomplie, sinon on recommence dans la moitié du tableau pertinente.  
 
-    Faites votre code de recherche dichotomique.
+    Faites votre code de recherche dichotomique.  
     
 
 ## Exercice 3 : Introduction à la recursivité  
 
-    Définition de la récursivité.
-    Live programming sur une recherche en système récursif.
+    Définition de la récursivité.  
+    Live programming sur une recherche en système récursif.  
 
 
 **Calcul de la somme des X premiers entier**  
