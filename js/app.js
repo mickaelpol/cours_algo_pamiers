@@ -5,11 +5,25 @@ var array = [71, 196, 131, 191, 178, 159, 39, 52, 88, 170, 6, 93, 87, 145, 141, 
 
 // Live programming
 // Fonction utilisant le tri a bulle
-function triBulle(tableau) {
-    
-    // votre code ici
-    
+function triTab(tableau) {
+
+    var test = $('#test');
+    test.append(tableau);
+
+    for (var i = 0; i < tableau.length; i++) {
+
+        if (tableau.length < 2) {
+            for (var i = 0; i < 50; i++) {
+                $(window).on('load', function () {
+                    $('#myModal').modal('show');
+                });
+            }
+        }
+    }
+    return tableau;
 }
+
+triTab(tab);
 
 
 
