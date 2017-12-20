@@ -8,6 +8,19 @@ var array = [71, 196, 131, 191, 178, 159, 39, 52, 88, 170, 6, 93, 87, 145, 141, 
 function triBulle(tableau) {
     
     // votre code ici
+    for (var i = 0; i < tableau.length; i++){
+
+        for(var j = i+1 ; j < tableau.length; j++){
+
+            if (tableau[i] > tableau[j]) {
+                var plusPetit = tableau[j];
+                tableau[j] = tableau[i]
+                tableau[i] = plusPetit;    
+            }
+        }
+        
+    }
+    return tableau;
     
 }
 
