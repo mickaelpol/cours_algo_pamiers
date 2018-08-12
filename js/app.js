@@ -6,19 +6,19 @@ var array = [71, 196, 131, 191, 178, 159, 39, 52, 88, 170, 6, 93, 87, 145, 141, 
 // Live programming
 // Fonction utilisant le tri a bulle
 function triBulle(tableau) {
-    
-    // votre code ici
-    for (var i = 0; i < tableau.length; i++){
 
-        for(var j = i+1 ; j < tableau.length; j++){
+    // votre code ici
+    for (var i = 0; i < tableau.length; i++) {
+
+        for (var j = i + 1; j < tableau.length; j++) {
 
             if (tableau[i] > tableau[j]) {
                 var plusPetit = tableau[j];
                 tableau[j] = tableau[i]
-                tableau[i] = plusPetit;    
+                tableau[i] = plusPetit;
             }
         }
-        
+
     }
     return tableau;
     
@@ -30,6 +30,8 @@ function triBulle(tableau) {
 function triInsertion(tableau) {
     
     // votre code ici
+    
+
     
 }
 
@@ -64,7 +66,7 @@ function fibo(n) {
 
 
 console.log(triBulle(array));
-console.log(triInsertion(array));
-console.log(rechercheDicho(array));
-console.log(sommeEntier(100));
-console.log(fibo(10));
+// console.log(triInsertion(array));
+// console.log(rechercheDicho(array));
+// console.log(sommeEntier(100));
+// console.log(fibo(10));
